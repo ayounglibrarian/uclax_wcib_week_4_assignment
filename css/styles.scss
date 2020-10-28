@@ -39,6 +39,16 @@ body {
   height: 32rem;
 }
 
+.carousel-item img {
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover; }
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -100,4 +110,16 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #7bb4c2;
+    border-color: #9a8262;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #e45030;
+    border-color: #eed130;
 }
