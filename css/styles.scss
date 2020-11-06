@@ -5,13 +5,18 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
-  background: url("../images/bg.jpg");
+  color: ##ff1bfc;
+  background: url("../images/splash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
+
+.bg-dark {
+    background-color: #e8d4e6!important;
+}
+
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -60,6 +65,7 @@ body {
 }
 .marketing h2 {
   font-weight: 400;
+  color: #ff1bfc
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
@@ -115,11 +121,15 @@ body {
 .btn-primary {
     color: #000;
     background-color: #7bb4c2;
-    border-color: #9a8262;
+    border-color: ##ff05ea;
 }
 
 .btn-secondary {
     color: #fff;
-    background-color: #e45030;
-    border-color: #eed130;
+    background-color: ##ff05ea;
+    border-color: ##ff05ea;
+}
+
+.h3 {
+    color: #ff1bfc
 }
